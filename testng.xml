@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="listeners.TestNGListener"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="/Users/cb-sarathkumar/Desktop/Rupini">
+        <classes>
+            <class name="tests.QA">
+                <methods>
+                    <include name="textBox"/>
+                    <include name="button"/>
+                    <include name="hyperLink"/>
+                    <include name="image"/>
+                    <include name="testBrokenLink"/>
+                    <include name="testDropDown"/>
+                    <include name="radioButton"/>
+                    <include name="table"/>
+                    <include name="alert"/>
+                    <include name="frame"/>
+                    <include name="windows"/>
+                    <include name="calendar"/>
+                    <include name="draggable"/>
+                    <include name="droppable"/>
+                    <include name="selectable"/>
+                    <include name="sortable"/>
+                    <include name="autoComplete"/>
+                    <include name="downloadFile"/>
+                    <include name="uploadFile"/>
+                    <include name="toolTip"/>
+                    <include name="disappear"/>
+                    <include name="test"/>
+                </methods>
+            </class>
+            <class name="tests.QA1">
+                <methods>
+                    <include name="textBox"/>
+                    <include name="button"/>
+                    <include name="hyperLink"/>
+                    <include name="image"/>
+                    <include name="testBrokenLink"/>
+                    <include name="testDropDown"/>
+                    <include name="radioButton"/>
+                    <include name="table"/>
+                    <include name="alert"/>
+                    <include name="frame"/>
+                    <include name="windows"/>
+                    <include name="calendar"/>
+                    <include name="draggable"/>
+                    <include name="droppable"/>
+                    <include name="selectable"/>
+                    <include name="sortable"/>
+                    <include name="autoComplete"/>
+                    <include name="downloadFile"/>
+                    <include name="uploadFile"/>
+                    <include name="toolTip"/>
+                    <include name="disappear"/>
+                    <include name="test"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
